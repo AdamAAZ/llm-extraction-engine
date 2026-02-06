@@ -1,0 +1,11 @@
+# secrets
+.env
+
+# python
+__pycach__/
+*.pyc
+.venv/
+venv/
+
+# outputs
+out/*.json

@@ -9,6 +9,9 @@ The goal is to show how LLMs can be used safely, audibly, and reliably inside re
 
 ---
 
+
+
+
 ## Core Idea
 
 LLMs are powerful but non-deterministic.  
@@ -80,12 +83,15 @@ Warnings indicate uncertainty or edge cases.
 
 2. Install dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 3. Create a .env file based on .env.example and set your OpenAI API key:
 
+```
 OPENAI_API_KEY=your_key_here
-
+```
 ---
 
 ## Running the Pipeline
@@ -96,7 +102,9 @@ Input listings are stored in a plain text file, separated by blank lines.
 
 Run the pipeline:
 
+```
 python -m src.pipeline --in examples/listings.txt --out out/out.json
+```
 
 This will:
 - extract structured fields using the LLM

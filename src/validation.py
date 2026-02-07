@@ -1,7 +1,7 @@
 from __future__ import annotations
-from schemas import RentalSchema
-from config import ConfidenceThresholds, PricePolicy, BedroomsRange, BathroomsRange
-from issues import Issue
+from src.schemas import RentalSchema
+from src.config import ConfidenceThresholds, PricePolicy, BedroomsRange, BathroomsRange
+from src.issues import Issue
 
 def validate_confidence(
     extracted_field,

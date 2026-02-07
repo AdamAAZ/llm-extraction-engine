@@ -2,9 +2,9 @@ import json
 from typing import Iterable
 from openai import OpenAI
 import instructor
-from schemas import RentalSchema
-from validation import validate_rental
-from issues import sort_issues, is_valid
+from src.schemas import RentalSchema
+from src.validation import validate_rental
+from src.issues import sort_issues, is_valid
 from dotenv import load_dotenv
 import argparse
 import os

@@ -100,7 +100,7 @@ The pipeline is currently built to handle rental listing data.
 
 Input listings are stored in a plain text file, separated by blank lines.
 
-Run the pipeline:
+Run the pipeline (this takes ~2 min):
 
 ```
 python -m src.pipeline --in examples/listings.txt --out out/out.json
@@ -147,5 +147,6 @@ It is designed as a reusable extraction and validation engine, not a one-off scr
 - Learned validation policies from historical data
 - Simple web UI for inspection
 - Batch processing of scraped data sources
+- Reduce API calls for faster extraction
 
 The core engine is intentionally kept minimal so these can be layered on later.

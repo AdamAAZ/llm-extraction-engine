@@ -11,7 +11,6 @@ The goal is to show how LLMs can be used safely, audibly, and reliably inside re
 
 
 
-
 ## Core Idea
 
 LLMs are powerful but non-deterministic.  
